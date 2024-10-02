@@ -189,7 +189,7 @@ bucket_role   = "roles/storage.objectViewer"
 bucket_entity = "allUsers"
 
 
-gcs_sts = [{
+gcs_sts = [{ 
   description                                = "TF Mailbox backup service"
   source_bucket                              = "tf-jobload"
   destination_bucket                         = "tf-jobload-backup"
