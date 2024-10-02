@@ -188,7 +188,9 @@ gcs_buckets = [
 bucket_role   = "roles/storage.objectViewer"
 bucket_entity = "allUsers"
 
- 
+
+# GCS STS
+#################################################  
 gcs_sts = [{
   description                                = "TF Mailbox backup service"
   source_bucket                              = "tf-jobload"
