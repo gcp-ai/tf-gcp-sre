@@ -114,3 +114,8 @@ variable "bucket_entity" {}
 variable "cloudsql_instances" {}
 variable "cloudsql_databases" {}
 variable "cloudsql_users" {}
+
+
+# GCS STS
+##################################################
+variable "gcs_sts" {}
