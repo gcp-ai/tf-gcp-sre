@@ -1,0 +1,1 @@
+git pull && git add . && git commit -m "draft-dp" && git push
