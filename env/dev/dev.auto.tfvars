@@ -15,7 +15,7 @@ project_id   = "vai-tf"
 googleapis = { 
   storagetransfer  = "storagetransfer.googleapis.com"
 }  
-
+ 
 
 # Service account variables
 #################################################

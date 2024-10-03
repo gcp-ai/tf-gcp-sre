@@ -20,5 +20,6 @@ module "gcs_sts" {
   repeat_interval                            = each.value.repeat_interval
 
   depends_on = [
+    module.googleapis_storagetransfer
   ]
 }
