@@ -183,7 +183,7 @@ bucket_entity = "allUsers"
 # GCS STS
 #################################################  
 gcs_sts = [{
-  description                                = "TF Mailbox backup service"
+  description                                = "TF jobload backup service"
   source_bucket                              = "tf-test-jobload"
   destination_bucket                         = "tf-test-jobload-backup"
   overwrite_objects_already_existing_in_sink = "false"
