@@ -210,7 +210,7 @@ gcs_sts = [{
   start_time_of_day_seconds                  = 1
   start_time_of_day_nanos                    = 1
   repeat_interval                            = "21600s"
-  }
+  } 
 ]
 
 
