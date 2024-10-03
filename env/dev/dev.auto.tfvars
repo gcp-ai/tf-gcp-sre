@@ -13,18 +13,7 @@ project_id   = "vai-tf"
 ##################################################
 
 googleapis = { 
-  notebooks            = "notebooks.googleapis.com"
-  serviceusage         = "serviceusage.googleapis.com"
-  cloudresourcemanager = "cloudresourcemanager.googleapis.com"
-  compute              = "compute.googleapis.com"
-  iap                  = "iap.googleapis.com"
-  aiplatform           = "aiplatform.googleapis.com"
-  cloudkms             = "cloudkms.googleapis.com"
-  bigquery             = "bigquery.googleapis.com"
-  storage              = "storage.googleapis.com"
-  servicenetworking    = "servicenetworking.googleapis.com"
-  sqladmin             = "sqladmin.googleapis.com"
-  iam                  = "iam.googleapis.com"
+  storagetransfer  = "storagetransfer.googleapis.com"
 }  
 
 
