@@ -184,8 +184,8 @@ bucket_entity = "allUsers"
 #################################################  
 gcs_sts = [{
   description                                = "TF Mailbox backup service"
-  source_bucket                              = "tf-jobload"
-  destination_bucket                         = "tf-jobload-backup"
+  source_bucket                              = "tf-test-jobload"
+  destination_bucket                         = "tf-test-jobload-backup"
   overwrite_objects_already_existing_in_sink = "false"
   overwrite_when                             = "DIFFERENT"
   schedule_start_date_day_of_month           = 1

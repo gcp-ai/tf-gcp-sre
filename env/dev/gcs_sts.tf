@@ -3,8 +3,8 @@ module "gcs_sts" {
   for_each                                   = { for i, v in var.gcs_sts : i => v }
   project                                    = var.project_id
   description                                = each.value.description
-  source_bucket                              = "tf-jobload"
-  destination_bucket                         = "tf-jobload-backup"
+  source_bucket                              = each.value.source_bucket
+  destination_bucket                         =  each.value.destination_bucket
   overwrite_objects_already_existing_in_sink = each.value.overwrite_objects_already_existing_in_sink
   overwrite_when                             = each.value.overwrite_when
   schedule_start_date_day_of_month           = each.value.schedule_start_date_day_of_month
