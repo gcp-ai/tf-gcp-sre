@@ -190,17 +190,17 @@ gcs_sts = [{
   overwrite_when                             = "DIFFERENT"
   schedule_start_date_day_of_month           = 1
   schedule_start_date_month                  = 1
-  schedule_start_date_year                   = 2023
-  schedule_end_date_day_of_month             = 1
-  schedule_end_date_month                    = 1
-  schedule_end_date_year                     = 3023
+  schedule_start_date_year                   = 2024
+  schedule_end_date_day_of_month             = 31
+  schedule_end_date_month                    = 12
+  schedule_end_date_year                     = 2024
   start_time_of_day_hours                    = 1
   start_time_of_day_minutes                  = 1
   start_time_of_day_seconds                  = 1
   start_time_of_day_nanos                    = 1
   repeat_interval                            = "3600s"
   } 
-]
+] 
 
 
 
