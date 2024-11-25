@@ -164,7 +164,7 @@ workbench_binding_members = ["serviceAccount:dev1-sa@gcp-automation-demo1.iam.gs
 #################################################
 gcs_buckets = [  
   {
-    bucket_name                 = "tf-jobload"
+    bucket_name                 = "tf-ga-jobload"
     force_destroy               = true
     uniform_bucket_level_access = true
     storage_class               = "STANDARD"
@@ -184,8 +184,8 @@ bucket_entity = "allUsers"
 #################################################  
 gcs_sts = [{
   description                                = "TF jobload backup service"
-  source_bucket                              = "tf-test-jobload"
-  destination_bucket                         = "tf-test-jobload-backup"
+  source_bucket                              = "tf-ga-jobload"
+  destination_bucket                         = "tf-ga-jobload-backup"
   overwrite_objects_already_existing_in_sink = "false"
   overwrite_when                             = "DIFFERENT"
   schedule_start_date_day_of_month           = 1
