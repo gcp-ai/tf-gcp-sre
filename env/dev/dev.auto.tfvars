@@ -121,19 +121,19 @@ endpoint_name = "tf-endpoint"
 # EndPoint binding 
 #################################################
 endpoint_binding_role    = "roles/viewer"
-endpoint_binding_members = "serviceAccount:dev1-sa@vai-kldmkr1.iam.gserviceaccount.com"
+endpoint_binding_members = "dev1-sa@gcp-automation-demo1.iam.gserviceaccount.com"
 
 
 # EndPoint Member 
 #################################################
 endpoint_member_role = "roles/aiplatform.viewer"
-endpoint_member      = "serviceAccount:dev1-sa@vai-kldmkr1.iam.gserviceaccount.com"
+endpoint_member      = "serviceAccount:dev1-sa@gcp-automation-demo1.iam.gserviceaccount.com"
 # endpoint_member = "serviceAccount:dev1-sa@vai-dev1.iam.gserviceaccount.com"
 
 # EndPoint Policy 
 #################################################
 endpoint_policy_role    = "roles/viewer"
-endpoint_policy_members = ["serviceAccount:dev1-sa@vai-kldmkr1.iam.gserviceaccount.com"]
+endpoint_policy_members = ["serviceAccount:dev1-sa@gcp-automation-demo1.iam.gserviceaccount.com"]
 
 
 # Metadata Store
@@ -144,19 +144,19 @@ metadata_name = "tf-metdata-store"
 # Workbench Policy 
 #################################################
 workbench_policy_role    = "roles/viewer"
-workbench_policy_members = ["serviceAccount:dev1-sa@vai-kldmkr1.iam.gserviceaccount.com"]
+workbench_policy_members = ["serviceAccount:dev1-sa@gcp-automation-demo1.iam.gserviceaccount.com"]
 # workbench_policy_members = ["user:dev@phone.email"]
 
 
 # Workbench Member 
 #################################################
 workbench_member_role = "roles/notebooks.viewer"
-workbench_member      = "serviceAccount:dev1-sa@vai-kldmkr1.iam.gserviceaccount.com"
+workbench_member      = "serviceAccount:dev1-sa@gcp-automation-demo1.iam.gserviceaccount.com"
 
 # Workbench binding 
 #################################################
 workbench_binding_role    = "roles/viewer"
-workbench_binding_members = ["serviceAccount:dev1-sa@vai-kldmkr1.iam.gserviceaccount.com"]
+workbench_binding_members = ["serviceAccount:dev1-sa@gcp-automation-demo1.iam.gserviceaccount.com"]
 # workbench_binding_members = ["user:dev@phone.email"]
 
    
